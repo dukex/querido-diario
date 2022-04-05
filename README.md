@@ -33,6 +33,8 @@ Se você utiliza Windows, antes de rodar os passos a seguir, você irá precisar
 
 Se você utiliza Linux, os comandos a seguir irão criar um novo [ambiente virtual](https://docs.python.org/pt-br/3/library/venv.html) - que manterá tudo isolado do seu sistema -, ativá-lo e  instalar todas as bibliotecas necessárias para começar a rodar e desenvolver novos raspadores.
 
+**Atenção:** Garanta que a versão do python é maior ou igual 3.9 e menor que 3.10
+
 ```console
 $ python3 -m venv .venv
 $ source .venv/bin/activate
